@@ -52,7 +52,6 @@ class Editor:
         new = i.resize(new_size)
         new.save(f"media/{pic}")
 
-
     def run(self):
 
         try:
@@ -85,7 +84,6 @@ class Editor:
 
                 if Config.change_width != 0:
                     self.change_width(pic, i, Config.change_width)
-
 
         except OSError:
             pass
