@@ -1,0 +1,3 @@
+# MediaConfig
+Simple picture editor
+
